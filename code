@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Orientmarkt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f5f2;
+            color: #333;
+        }
+
+        header {
+            background: url('https://lh3.googleusercontent.com/p/AF1QipMCQeNKRV-pnlYFgfoC06L6AALY8wiS-tDwsptb=s680-w680-h510-rw') center/cover no-repeat;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            background: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #8b2e2e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #8b2e2e;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #8b2e2e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sara Orientmarkt</h1>
+    <p>Familienbetrieb in Bremen-Kattenturm</p>
+</header>
+
+<nav>
+    <a href="#about">Über uns</a>
+    <a href="#products">Produkte</a>
+    <a href="#gallery">Bilder</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="about">
+    <h2>Über uns</h2>
+    <div class="box">
+        <p>
+            Willkommen beim Sara Orientmarkt! Wir sind ein familiengeführter Markt in Bremen-Kattenturm.
+            Bei uns finden Sie frische, hochwertige und orientalische Produkte zu fairen Preisen.
+        </p>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Unsere Produkte</h2>
+    <div class="box">
+        <ul>
+            <li>Frisches Obst und Gemüse</li>
+            <li>Orientalische Gewürze</li>
+            <li>Halal Fleisch</li>
+            <li>Reis, Linsen und Hülsenfrüchte</li>
+            <li>Süßwaren und Spezialitäten</li>
+        </ul>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Galerie</h2>
+    <div class="gallery">
+
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMCQeNKRV-pnlYFgfoC06L6AALY8wiS-tDwsptb=s680-w680-h510-rw" alt="Marktbild 1">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipPCrXhKtFKRifxbZ8CHNJCmVzbxfu2jODKySP-a=s680-w680-h510-rw" alt="Marktbild 2">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerdzNLMWnbYa9Ut49gPfN8-BABfCGWKNb4sNxqWhTS1I9H0Xiaa8wgBgexo1xdDeSsdHBB1soN-3SYiChUiyjt6d2Ap6Lu9MfM-G2Ztzzel0-3FeNNTTk3DfnCPTRHSKIYw_COs=s680-w680-h510-rw" alt="Marktbild 3">
+
+        <!-- Platz für weitere Bilder -->
+        <img src="DEIN_BILD_4_URL" alt="Marktbild 4">
+        <img src="DEIN_BILD_5_URL" alt="Marktbild 5">
+        <img src="DEIN_BILD_6_URL" alt="Marktbild 6">
+
+    </div>
+</section>
+
+<section id="faq">
+    <h2>FAQ</h2>
+    <div class="box">
+
+        <p><strong>Wo ist der Markt?</strong><br>
+        Gorsemannstraße 8, 28277 Bremen</p>
+
+        <p><strong>Öffnungszeiten?</strong><br>
+        Montag – Samstag: 08:00 – 20:00<br>
+        Sonntag: geschlossen</p>
+
+        <p><strong>Ist das Fleisch halal?</strong><br>
+        Ja, unser Fleisch ist halal.</p>
+
+        <p><strong>Habt ihr frische Ware?</strong><br>
+        Ja, täglich frisch!</p>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <div class="box">
+        <p>
+            Sara Orientmarkt<br>
+            Gorsemannstraße 8<br>
+            28277 Bremen<br><br>
+
+            Telefon: 0421 43502014<br><br>
+
+            Öffnungszeiten:<br>
+            Mo–Sa: 08:00 – 20:00 Uhr<br>
+            So: geschlossen
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sara Orientmarkt</p>
+</footer>
+
+</body>
+</html>
